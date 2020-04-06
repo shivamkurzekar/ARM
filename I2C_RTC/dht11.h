@@ -1,0 +1,11 @@
+void high_nibble(char);
+void low_nibble(char);
+int DHT_Rx_Data(void);
+int add();
+void LCD_Write_Cmd(char x);
+ void high_nibble(char p);
+ void low_nibble(char p);
+ void LCD_Write_Data(char x);
+ void initialize_LCD(void);
+ void printStringLine(char str[]);
+ void print_int(int temp);

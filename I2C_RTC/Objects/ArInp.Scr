@@ -1,0 +1,5 @@
+--create .\Objects\dht.lib
+.\objects\pll.o
+".\objects\km_startup - copy.o"
+.\objects\my_dht11.o
+.\kmlib1.lib
